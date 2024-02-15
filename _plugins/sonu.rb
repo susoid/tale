@@ -4,3 +4,11 @@
 #   doc.data["screated_at"] ||= git_dates.first
 #   doc.data["slast_updated_at"] ||= git_dates.last
 # end
+
+# Jekyll::Hooks.register :documents, :post_init do |doc|
+#   # set created at date to file creation date if not already set
+#   doc.data["gcreated_at"] ||= File.ctime(doc.path)
+
+#   # set last updated date to file modification date if not already set
+#   doc.data["glast_updated_at"] ||= File.mtime(doc.path)
+# end
