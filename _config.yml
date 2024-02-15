@@ -7,6 +7,13 @@ description:    "Minimal Jekyll theme for storytellers"
 # Google Analytics
 google_analytics: UA—XXXXXXXX-X
 
+plugins:
+  - jekyll-last-modified-at
+
+# Optional. The default date format, used if none is specified in the tag.
+last-modified-at:
+    date-format: '%d-%b-%y'
+
 # Author
 author:
   name:         Chester How
