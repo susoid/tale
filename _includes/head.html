@@ -2,23 +2,6 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-
-KK {{page.mmlast_modified_at}} 
-
-
-
-
-{{page.path}}
-  -----------
-  ** {{ page.path|intcomma|date:"%Y-%m-%d"}}
-  --------
-
-  {{ page.screated_at }}
-  <lastmod>{% capture lastmod_date %}{% last_modified {{ page.path }} %}{% endcapture %}{{ lastmod_date}}</lastmod>
-  <br>
-
-  {{ page.last_modified_at }}
-
   <!-- CSS -->
   <link rel="stylesheet" href="{{ '/assets/main.css' | relative_url }}">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Libre+Baskerville:400,400i,700">
