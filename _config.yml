@@ -17,6 +17,7 @@ author:
 markdown:       kramdown
 include:
   - _pages
+  - .htaccess
 
 # Assets
 sass:
@@ -34,3 +35,4 @@ sass:
 
 # Permalinks
 permalink: /:title
+
