@@ -1,9 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
 
-  {% for dfg in site.config %}
+  {% for dfg in site.ENV %}
     {{dfg}}
   {% endfor %}
+
+  {{ENV}}
+  {{ENV.name}}
+  {{env.name}}
 
   {% include head.html %}
 
