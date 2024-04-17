@@ -18,7 +18,11 @@
   <!-- RSS -->
 
   {{jekyll.environment}}
-  {{ENV['name']}}
+----
+{{site.env}}
+----
+
+{{ site.env.name }}
   <!-- Google Analytics-->
   {% if site.google_analytics and jekyll.environment == 'production' %}
   {% include analytics.html %}
